@@ -3,7 +3,7 @@
 <project name="Cobertura" default="build" basedir=".">
 
 	<path id="project.classpath">
-		<pathelement path="${play.path}/framework/classes"/>
+		<pathelement path="${play.path}/framework/play.jar"/>
 		<fileset dir="${play.path}/framework/lib">
 			<include name="*.jar"/>
 		</fileset>
