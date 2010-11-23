@@ -46,7 +46,7 @@
 	-->
 	<target name="getCobertura" depends="init">
 		<mkdir dir="tmp" />
-		<get src="http://sourceforge.net/projects/cobertura/files/cobertura/1.9.2/cobertura-1.9.2-src.tar.gz/download" dest="tmp/cobertura-1.9.2-src.tar.gz" usetimestamp="true" />
+		<get src="http://puzzle.dl.sourceforge.net/project/cobertura/cobertura/1.9.2/cobertura-1.9.2-src.tar.gz" dest="tmp/cobertura-1.9.2-src.tar.gz" usetimestamp="true" />
 
 		<untar src="tmp/cobertura-1.9.2-src.tar.gz" dest="tmp/" compression="gzip" />
 
